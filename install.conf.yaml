@@ -1,0 +1,33 @@
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+
+- defaults:
+    link:
+        relink: true
+        force: true
+
+- clean: ['~']
+
+- create:
+    - ~/down
+    - ~/go
+    - ~/src
+    - ~/work
+    - ~/.vim/undodir
+    - ~/.vim/colors
+    - ~/.vim/autoload
+    - ~/.vim/bundle
+
+- link:
+    ~/.bashrc:
+    ~/.gitconfig:
+    ~/.gvimrc:
+    ~/.vimrc:
+    ~/.vim/colors/monokai.vim:
+    ~/.vim/autoload/pathogen.vim:
+    ~/.vim/bundle/vim-beancount:
+    ~/.vim/bundle/vim-terraform:
+    ~/.vim/bundle/vim-airline:
+    ~/.vim/bundle/vim-colors-solarized:
+    ~/.vim/bundle/vim-sonokai:
+    ~/.vim/bundle/vim-polyglot:

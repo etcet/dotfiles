@@ -1,0 +1,22 @@
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+	ignore = dirty
+[submodule "submodules/vim-beancount"]
+	path = vim-beancount
+	url = https://github.com/nathangrigg/vim-beancount.git
+[submodule "files/vim/vim-terraform"]
+	path = vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
+[submodule "files/vim/vim-colors-solarized"]
+	path = vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "vim-sonokai"]
+	path = vim-sonokai
+	url = https://github.com/sainnhe/sonokai.git
+[submodule "vim-airline"]
+	path = vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim-polygloy"]
+	path = vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
