@@ -3,6 +3,7 @@
 # Please adapt and uncomment the following lines:
 	name = Chris James
 	email = chris@etcet.net
+	signingkey = A8EE9D024EA95571
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true

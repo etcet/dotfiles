@@ -150,3 +150,5 @@ fi
 
 # alias expand sudo
 alias sudo='sudo '
+source "$HOME/.cargo/env"
+. "$HOME/.cargo/env"

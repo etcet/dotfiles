@@ -20,3 +20,6 @@
 [submodule "vim-polygloy"]
 	path = vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "vim-go"]
+	path = vim-go
+	url = https://github.com/fatih/vim-go.git
